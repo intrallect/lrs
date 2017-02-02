@@ -80,6 +80,10 @@
 If your mongodb instance is hosted under a non-default location, set the `DBHOST` and `DBNAME` environment variables, and the lrs will connect to `mongodb://${DBHOST}/${DBNAME}` instead.
 For example, in the IIS config, simply add `<app key="DBHOST" value="..." />` and `<app key="DBNAME" value="..." />` to the `<appSettings>` element.
 
+### Docker
+Image available at https://hub.docker.com/r/janeklb/easygenerator-lrs/
+Requires separate mongodb instance.
+
 Resources
 -----------
 1. [Hosting node.js applications in IIS on Windows](https://github.com/tjanczuk/iisnode)
